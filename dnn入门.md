@@ -14,13 +14,17 @@ python编程：根据项目需要，现学现用，廖雪峰的教程还不错 �
 
 附编程环境和开发工具：
 
+做深度学习，你需要有一台配置较好的电脑：台式机i5（笔记本最好i7）处理器，NVidia独立显卡2G以上显存。
+
 Windows下建议采用win7/10 64位，visual studio 2013及以上版本，2015、2017均可
 
 Linux建议采用Ubuntu Desktop for developers 14或16，https://www.ubuntu.com/desktop/developers
 
-可在windows下安装ubuntu虚拟机，vmware和virtualbox都很好用，后者免费，推荐。
+可在windows下安装ubuntu虚拟机，vmware和virtualbox都很好用，后者免费，推荐。但注意虚拟机是跑不了GPU的。
 
-Python开发环境搭建：windows下建议安装anaconda，然后装pycharm，在pycharm下编程，详见yangli/python-windows.md；linux下python开发非常友好，先装anaconda或原版python，然后也可以用pycharm。
+Python开发环境搭建：windows下建议安装anaconda，然后装pycharm，在pycharm下编程，详见python-windows.md；
+
+linux下python开发非常友好，先装anaconda或原版python，然后也可以用pycharm。
 
 
 ## 1.2 caffe的安装（难度低）
@@ -36,7 +40,7 @@ caffe中文 http://caffecn.cn/  其中有个caffe官方教程中译本
 
 Caffe windows版本  https://github.com/BVLC/caffe/tree/windows
 
-参考 yangli/windows下编译调试caffe.md
+参考 windows下编译调试caffe.md
 
 ## 1.3 caffe训练和预测实例（难度低）
 要求完成caffe的训练实例。用我们自己转换后的手写字符数据集一部分进行训练，剩余进行测试。
@@ -45,7 +49,7 @@ Caffe windows版本  https://github.com/BVLC/caffe/tree/windows
 
 完成：生成图像列表、转换为lmdb、训练、绘制loss和accuracy曲线、网络结构可视化、编写测试程序。其中编写测试程序要求python和C++两个版本。
 
-参考 yangli/caffe训练步骤.md
+参考 caffe训练步骤.md
 
 ## 1.4 caffe官方实例代码理解和运行（难度中）
 caffe官网 http://caffe.berkeleyvision.org/
