@@ -1,0 +1,27 @@
+vs2013下HeadPosePnP编译全过程。
+
+1. 网站下载代码 https://github.com/royshil/HeadPosePnP
+
+2. 打开cmake，configure
+它可能会提示opencv找不到，把OpenCVConfig.cmake所在的目录，例如opencv\build\x64\vc12\lib给它。
+可能会提示glut找不到，下载freeglut
+http://www.transmissionzero.co.uk/software/freeglut-devel/
+下载这个： freeglut 3.0.0 MSVC Package
+然后把freeglut的解压后的目录给它。
+
+3. generate， 成功。打开生成的sln文件。
+
+4. 编译，可能会提示WINGDIAPI 相关的错误，在报错的cpp文件前面加上
+#include "Windows.h"
+
+5. 继续编译，可能会提示找不到标识符GL_BGRA或GL_BGR，把他们替换成GL_BGRA_EXT或GL_BGR_EXT.
+不知道是什么意思，我只是看到gl.h里定义了GL_BGRA_EXT，没有定义GL_BGRA。
+
+6. 编译成功，运行，可能会提示找不到freeglut.dll
+把freeglut.dll拷到工程目录下，或加入环境变量。
+
+7. 运行可能会提示找不到head-obj.obj，或打开Angelina_Jolie 目录下的文件名失败。
+代码根目录下就有这些，路径修改一下即可。
+
+8. 运行，成功。
+
