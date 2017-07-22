@@ -17,7 +17,7 @@
 
 ## python编程基础
 
-可以边用边学，需要用到什么学什么。
+建议边用边学，需要用到什么学什么。
 
 如果想系统学习，廖雪峰的教程还不错  http://www.liaoxuefeng.com 
 
@@ -27,7 +27,7 @@
 
 经常会用到开源项目，因此上github 和cmake的简单使用必不可少。
 
-windows下git或github的用法见 https://github.com/micvlab/doc ，github使用说明.txt
+windows下git或github的用法见 github使用说明.txt
 
 Windows下建议采用win7/10 64位，visual studio是最好用的IDE，建议使用，vs2013、2015、2017均可。
 
