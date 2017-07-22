@@ -1,0 +1,25 @@
+这里提供在windows上基于tortoisegit客户端的github使用说明。
+
+1. 下载安装tortoisegit
+https://tortoisegit.org/download/
+在此页面FAQ中要求先安装git for windows，按说明到官网下载并安装，再装tortoisegit。
+
+2. 打开项目主页： https://github.com/micvlab/doc
+在页面上可以找到项目clone的地址：https://github.com/micvlab/doc.git
+
+3. 建一空白文件夹，空白处点右键，git clone
+在弹出对话框里输入上述URL：https://github.com/micvlab/doc.git，点ok
+至此，获取项目最新文件/代码完毕。
+
+接下来，上传自己的内容。
+4. 在本地文件夹下放好自己新建的文件，或对已存在的文件修改之后，
+如果有新建文件，则在本地根目录下空白处右键，Tortoisegit，选add
+把新建的文件加进去。这时你会发现新建的文件图标多了个加号。
+
+5. 在本地根目录下空白处右键，Git commit -> "master"
+勾上你想要上传的文件，写一段注释，点ok，commit成功。
+
+6. 本地根目录，空白处右键，Tortoisegit，push，上传至github。
+上传结束。
+
+7. 特别说明，如果提交的是共同开发的代码，则一定要用代码比较工具，如winmerge，认真比较后上传。
