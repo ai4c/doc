@@ -1,5 +1,7 @@
 ## Windows 下编译OpenCV
 
+杨力，2016
+
 环境：Windows 7/10，64位，Visual Studio 2013以上版本，推荐vs2015。
 
 1. 下载opencv最新版
