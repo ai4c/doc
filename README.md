@@ -1,7 +1,10 @@
 # AI for campus
 
-dnn: deep neural network
+* dnn
+deep neural network
 
-cv: computer vision 
+* cv
+computer vision 
 
-programming: knowledge about programming
+* programming
+knowledge about programming
