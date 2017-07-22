@@ -37,7 +37,7 @@ Linux建议采用Ubuntu Desktop for developers 14或16，https://www.ubuntu.com/
 
 Python开发环境搭建：
 
-windows下建议安装anaconda，然后装pycharm，在pycharm下编程，详见https://github.com/micvlab/doc/tree/master/yangli/python-windows.md  
+windows下建议安装anaconda，然后装pycharm，在pycharm下编程，详见 python-windows.md  
 
 linux下python开发非常友好，先装anaconda或原版python，然后装pycharm。
 
@@ -103,6 +103,6 @@ opencv官方源码的sample目录下有非常丰富的例子。
 
 # 5. 深度学习
 
-参考 https://github.com/micvlab/doc/tree/master/practice  入门学习任务表
+参考 dnn入门.md
  
 
