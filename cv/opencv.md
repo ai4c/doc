@@ -20,7 +20,7 @@ opencv_contrib 是opencv还在开发中的新功能集合，可能还不稳定�
 
 最好把它放在和上一步opencv解压目录相邻的地方。
 
-git客户端不会用？ 参考 https://github.com/micvlab/doc/blob/master/github%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.txt
+git客户端不会用？ 参考： github使用说明.txt
 
 3. cmake生成解决方案
 
